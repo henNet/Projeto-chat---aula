@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Jga Secret</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Seção do Login -->
+    <div class="loginContainer">
+      <p>Informe o seu nome:</p>
+      <input type="text" id="nomeUsuario" />
+      <button onclick="conectar()">login</button>
+    </div>
+
+    <!-- Seção das Mensagens -->
+    <div class="chatContainer">
+      <div class="mensagens">
+        <!-- <div class="minhasMsgs">
+          <span>Olá tudo bem?</span>
+        </div>
+
+        <div class="outrosMsgs">
+          <span
+            ><b>Fulano de Tal: </b><br />
+            tudo bem!
+          </span>
+        </div> -->
+      </div>
+
+      <div class="inputChatMsg">
+        <input type="text" id="mensagem" />
+        <button onclick="enviarMsg()">Enviar</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
